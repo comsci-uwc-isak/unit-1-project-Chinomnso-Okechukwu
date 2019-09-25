@@ -23,7 +23,7 @@ After this, the components of the computer system must also be made familiar wit
 Design
 ---------
 ### First Sketch of System
-![SystemDiagram] (system.jpg)
+![SystemDiagram] (IMG_8851.HEIC)
 **Fig. 1** This diagram shows the main components of the minimal rental app. It includes the input/outputs ND MAIN ACTIONS.
 Development
 --------
