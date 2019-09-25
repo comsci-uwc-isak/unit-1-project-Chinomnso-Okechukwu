@@ -44,7 +44,7 @@ mkdir RentalCarApp
 cd RentalCarApp
 mkdir database
 mkdir scripts
-echo" Installation complete successfully"
+echo "Installation complete successfully"
 
 ```
 This script meets the requirement of the client for a simple installation
