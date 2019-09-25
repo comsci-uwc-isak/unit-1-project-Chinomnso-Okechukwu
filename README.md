@@ -24,7 +24,7 @@ Design
 ---------
 ### First Sketch of System
 ![CarRental] (diagram.jpg)
-**Fig. 1** This diagram shows the main components of the minimal rental app. It includes the input/outputs ND MAIN ACTIONS.
+**Fig. 1** This diagram shows the main components of the minimal rental app. It includes the input/outputs and main actions.
 Development
 --------
 ### 1. Script for installation
