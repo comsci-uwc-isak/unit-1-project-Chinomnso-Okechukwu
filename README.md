@@ -27,6 +27,30 @@ Design
 **Fig. 1** This diagram shows the main components of the minimal rental app. It includes the input/outputs ND MAIN ACTIONS.
 Development
 --------
+### 1. Script for installation
+```.sh
+#!/bin/bash
+
+#This program creates the folder structure for the minimal rental app
+
+echo "Starting installation"
+echo "Installing in the desktop (default). Press enter"
+read
+cd ~/Desktop
+
+#create app folder
+mkdir RentalCarApp
+
+cd RentalCarApp
+mkdir database
+mkdir scripts
+echo" Installation complete successfully"
+
+```
+This script meets the requirement of the client for a simple installation
+however, it could be simplified so that the user does not need to
+execute the program by typing ``bash install.sh``
+
 
 Evaluation
 -----------
