@@ -25,6 +25,13 @@ Design
 ### First Sketch of System
 ![CarRental] (diagram.jpg)
 **Fig. 1** This diagram shows the main components of the minimal rental app. It includes the input/outputs and main actions.
+
+## Flow diagrams 
+
+### Flow diagram for creating a frame in the Bash terminal
+![FlowDiagramFrame](fLOWCHART)
+***Fig. 2** This flow diagram shows the algorithm for creating a frame with a word inside in the bash terminal.
+
 Development
 --------
 ### 1. Script for installation
@@ -45,12 +52,17 @@ cd RentalCarApp
 mkdir database
 mkdir scripts
 echo "Installation complete successfully"
-
-```
+F
 This script meets the requirement of the client for a simple installation
 however, it could be simplified so that the user does not need to
 execute the program by typing ``bash install.sh``
 
+1 How to detedct is a word's length is odd or even
+```.sh
+  if [ $len%2 -eq 0 ]
+```
+2 How to create an unistall program
+rm -r 
 
 Evaluation
 -----------
