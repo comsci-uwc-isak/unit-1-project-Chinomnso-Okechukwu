@@ -29,7 +29,7 @@ Design
 ## Flow diagrams 
 
 ### Flow diagram for creating a frame in the Bash terminal
-![FlowDiagramFrame](fLOWCHART)
+![FlowDiagramFrame](FLOWCHART.png)
 ***Fig. 2** This flow diagram shows the algorithm for creating a frame with a word inside in the bash terminal.
 
 Development
