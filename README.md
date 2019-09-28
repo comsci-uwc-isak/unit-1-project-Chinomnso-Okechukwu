@@ -23,7 +23,7 @@ After this, the components of the computer system must also be made familiar wit
 Design
 ---------
 ### First Sketch of System
-![CarRental] (diagram.jpg)
+![CarRental](diagram.jpg)
 **Fig. 1** This diagram shows the main components of the minimal rental app. It includes the input/outputs and main actions.
 
 ## Flow diagrams 
