@@ -64,6 +64,14 @@ execute the program by typing ``bash install.sh``
 2 How to create an unistall program
 rm -r 
 
+### Developing the action Create new car
+This process involves the inputs _,_,_,_, and the outputs:
+The following steps describe the algorithm
+① Get the inputs as arguments '$1 $2 $3 $4'
+② Check number of arguments. In bash this can be done as 'if [$# -eq 4]
+③ Store new car inside maincarfile.txt. echo "Lx9/2 nissan 2000 8" >>maincarfile.txt
+④ Create file for recording tips as plate.txt. echo "" > plate.txt
+ 
 Evaluation
 -----------
 
