@@ -71,7 +71,14 @@ The following steps describe the algorithm
 ② Check number of arguments. In bash this can be done as 'if [$# -eq 4]
 ③ Store new car inside maincarfile.txt. echo "Lx9/2 nissan 2000 8" >>maincarfile.txt
 ④ Create file for recording tips as plate.txt. echo "" > plate.txt
- 
+
+### Developing action record
+This process records the trip.
+The following steps decribe the algorithm
+① Get the arguments (2) and check
+② Check that the car exist
+③ add a new line to the file license.txt
+④ end
 Evaluation
 -----------
 
