@@ -19,6 +19,19 @@ Planning
 The installation of the new system should be easy and clear. For example, we can download the file from a link or copy the file from a USB drive. Assuming the owner of the shop was using a previous system, there are a variety of ways we can go about the process of installing a new system. They are: direct changeover, parallel running, pilot running and phased conversion.
 A feasibility study must be carried out before installation to know whether or not the new system will come off. It is like a possibility study which asks the question “Is this system possible to achieve?”  If the system seems possible, the implementation of the system is then planned out. 
 After this, the components of the computer system must also be made familiar with the system (eg. training the users). The information also must be backed up by another system or device to prevent data loss. 
+### Proposed solution
+I am going to use bash to create the program. I feel it is the most suitable solution because the user wants simple installation and bash is already incorporated in the operating system. Therefore, there is not much need to download a program. I guess bash is also less prone to hackers because it is quite an old programming system so most people are not really familiar with the commands. It also carries out the fuctions of 
+### Success Criteria
+These are outcomes that can be measured
+1. A car can be created 
+1. A trip can be recorded for a given car
+1. A summary (total distance travel, average) of trips can be measured
+1. A car information can be edited
+1. A basic working backup system is available
+1. The user can easily (name notation, documentation) understand the commands
+1. Installation is **simple**, it does not require additional software, one step process
+!. A car information can be deleted
+1. The application can be uninstalled
 
 Design
 ---------
