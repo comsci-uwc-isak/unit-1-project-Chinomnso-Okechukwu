@@ -125,6 +125,11 @@ if [ -f "TXM901.txt" ]; then (this is used to check the existence of a file)
 else
         echo "Test one: file with license number not found: Failing"
 fi
+```
+
+Here the option -f in the if condition checks for a file in the working folder.
+
+This corresponds to dynamic testing as opposed to static testing. It also corresponds to alpha testing because we are the ones developing the Car Rental App. It also corresponds to white-box testing because we had to go inside and check everything. The system meets the expecations of its users. 
 
 
 
