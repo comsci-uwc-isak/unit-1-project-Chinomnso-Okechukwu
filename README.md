@@ -92,8 +92,43 @@ The following steps decribe the algorithm
 ② Check that the car exist
 ③ add a new line to the file license.txt
 ④ end
+
+### Developing the action edit
+This process edits information about a car.
+The following steps describe the algorithm
+①　Get the argument and check
+②　Check if the car exists
+③ edit the info of the car as desired.
+④ save and store information
+
 Evaluation
 -----------
+#!/bin/bash
+
+#This file checks if the action create successfully adds a new car.
+
+#Step 1: navigate to the folder containing the create.sh file
+cd ../scripts/
+if [ -f "create.sh" ]; then (this is used to check the existence of a file)
+        echo "File exists, test will start now"
+else
+        echo "File create.sh does not exist. Test Failed"
+fi
+
+#Step 2: Use the create script to record a new car TXM901 nissan red 9
+bash create TXM901 nissan red 9
+
+#Step 3: Check that a txt file was created inside the database folder with
+#the license numbver
+if [ -f "TXM901.txt" ]; then (this is used to check the existence of a file)
+        echo "Test one: file with the license plate created successfully. Passed"
+else
+        echo "Test one: file with license number not found: Failing"
+fi
+
+
+
+
 
 
 
