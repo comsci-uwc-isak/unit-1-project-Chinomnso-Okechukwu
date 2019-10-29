@@ -106,6 +106,17 @@ We use man page protocol to display the user manual of any command that we can r
 https://www.cyberciti.biz/faq/linux-unix-creating-a-manpage/
 The website above gives more explanation about man files.
 
+```.sh
+.TH man 6 "29 Oct 2019" "1.0" "create man page"
+.SH NAME
+create \- Creates a new car
+-SH SYNOPSIS
+bash create.sh [license] [maker] [model] [passengers]
+.SH DESCRIPTION
+create is a bash program that allows to create a new car in the database
+.SH AUTHOR
+Okechukwu Chinomnso
+```
 
 Evaluation
 -----------
