@@ -101,6 +101,12 @@ The following steps describe the algorithm
 ③ edit the info of the car as desired.
 ④ save and store information
 
+### 3. Developing user help files
+We use man page protocol to display the user manual of any command that we can run on the terminal. It provides a detailed view of the command which includes NAME, SYNOPSIS, DESCRIPTION, OPTIONS, EXIT STATUS, RETURN VALUES, ERRORS, FILES, VERSIONS, EXAMPLES, AUTHORS.(adapted from GeeksforGeeks.com)
+https://www.cyberciti.biz/faq/linux-unix-creating-a-manpage/
+The website above gives more explanation about man files.
+
+
 Evaluation
 -----------
 #!/bin/bash
