@@ -74,8 +74,22 @@ execute the program by typing ``bash install.sh``
 ```.sh
   if [ $len%2 -eq 0 ]
 ```
-2 How to create an unistall program
-rm -r 
+### How to create an unistall program
+```.sh
+#!/bin/bash
+
+#this program will delete the created folders for the minimal rental app
+
+echo "Starting to uninstall"
+echo "uninstalling in the desktop (default). press enter"
+read
+cd ~/Desktop
+
+rm -r RentalCarApp
+
+
+echo "uninstallation complete successfully"
+```
 
 ### Developing the action Create new car
 This process involves the inputs _,_,_,_, and the outputs:
