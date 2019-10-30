@@ -221,6 +221,29 @@ cp ~/desktop/RentalCarApp/dataBase/* /Volumes/$usbName/backup/dataBase/
 ' # MULTILINE COMMENT
 ```
 
+### Developing the action delete
+This allows us to delete all information about a car.
+```.sh
+#!/bin/bash 
+
+#this program delete a car given one argument
+#licences 
+
+if [ $# -ne 1 ]; then rm -rf 
+	echo "error with the number of arguments"
+	echo " enter license"
+	exit 
+fi 
+
+#number of the arguments is correct, continue 
+license=$1
+
+#this delete an existing file maincarfile.txt inside CarRentalApp 
+echo "$license" > db/maincarfile.txt
+
+bash frame1 "car deleted successufully"
+```
+
 ### 3. Developing user help files
 We use man page protocol to display the user manual of any command that we can run on the terminal. It provides a detailed view of the command which includes NAME, SYNOPSIS, DESCRIPTION, OPTIONS, EXIT STATUS, RETURN VALUES, ERRORS, FILES, VERSIONS, EXAMPLES, AUTHORS.(adapted from GeeksforGeeks.com)
 https://www.cyberciti.biz/faq/linux-unix-creating-a-manpage/
