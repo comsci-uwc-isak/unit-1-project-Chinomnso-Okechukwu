@@ -131,6 +131,58 @@ cd ../scripts
 bash frame2 "Car edited successfully"
 ```
 
+### Developing the action back-up
+Backup is the process of copying or archiving files and folders for the purpose of being able to restore them in case of data loss. Data loss can be caused by many things such as computer viruses, hardware failures, file corruption, human error and natural disasters. Below, is a program to show how to back up to a USB or the desktop.
+```.sh
+#!/bin/bash
+
+# This program creates a backup of the database folder in the app folder
+# Either backs up to the desktop, or to an USB stick
+
+# Starting
+echo "Backup starting"
+
+##### Save to the desktop
+# Navigate to the desktop to create a new folder (backup/)
+cd ~/desktop/
+# If theres already a folder called "backup", it is removed
+rm -r backup
+mkdir backup
+# Creats subfolder (backup/dataBase/)
+cd backup
+mkdir dataBase
+
+# Copies all (*) the files from the dataBase folder 
+# to the new folder (backup/) and subfolder (backup/dataBase/)
+cp ~/desktop/RentalCarApp/dataBase/* ~/desktop/backup/dataBase/
+
+### NOT NECESSARY, ONLY FOR AESTHETIC PURPOSES
+# Prints the frame
+# Navigates to the folder of the frame.sh script
+cd ~/Desktop/RentalCarApp/scripts/
+bash frame.sh "Installation complete"
+
+
+##### Save to a usb stick
+# MULTILINE COMMENT
+: '
+echo -n "What is your USB stick called? "
+read usbName
+
+cd /Volumes/%usbName/
+# If theres already a folder called "backup", it is removed
+rm -r backup
+mkdir backup
+# Creats subfolder (backup/dataBase/)
+cd backup
+mkdir dataBase
+
+# Copy files to USB stick
+cp ~/desktop/RentalCarApp/dataBase/* /Volumes/$usbName/backup/dataBase/
+
+' # MULTILINE COMMENT
+```
+
 ### 3. Developing user help files
 We use man page protocol to display the user manual of any command that we can run on the terminal. It provides a detailed view of the command which includes NAME, SYNOPSIS, DESCRIPTION, OPTIONS, EXIT STATUS, RETURN VALUES, ERRORS, FILES, VERSIONS, EXAMPLES, AUTHORS.(adapted from GeeksforGeeks.com)
 https://www.cyberciti.biz/faq/linux-unix-creating-a-manpage/
