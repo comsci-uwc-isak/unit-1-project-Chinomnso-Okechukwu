@@ -133,7 +133,7 @@ pp=$4
 echo "$license $maker $model $pp" >> ../Database/maincarfile.txt
 echo "" > ../Database/$license.txt
 
-bash frame2 "Installation Completed"
+bash frame.sh "Installation Completed"
 ```
 
 ### Developing action record
