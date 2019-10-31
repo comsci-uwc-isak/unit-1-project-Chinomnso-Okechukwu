@@ -333,6 +333,20 @@ create is a bash program that allows to create a new car in the database
 Okechukwu Chinomnso
 ```
 
+```.sh
+#!/bin/bash
+
+.TH man 6 "01 Nov 2019 1.0" "delete man page"
+.SH NAME
+delete \- Deletes an existing car
+-SH SYNOPSIS
+bash delete.sh [license] [maker] [model] [passengers]
+.SH DESCRIPTION
+delete is a bash program that allows to delete an existing car in the database
+.SH AUTHOR
+Okechukwu Chinomnso
+```
+
 During the course of uploading my test plan, I learnt sbout mark down tables and how to convert to mark down tables.
 
 Evaluation
