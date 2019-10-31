@@ -46,6 +46,7 @@ Design
 ***Fig. 2** This flow diagram shows the algorithm for creating a frame with a word inside in the bash terminal.
 
 ### Test Plan
+![Comp Sci. Test Plan](Untitled spreadsheet - Sheet1.csv)
 
 Development
 --------
