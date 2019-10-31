@@ -46,7 +46,17 @@ Design
 ***Fig. 2** This flow diagram shows the algorithm for creating a frame with a word inside in the bash terminal.
 
 ### Test Plan
-(Untitled spreadsheet - Sheet1.csv)
+|                                  |                                                                          |                                                                                                      |       |
+|----------------------------------|--------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-------|
+| ACTION                           | INPUT                                                                    | OUTPUT                                                                                               | CHECK |
+| Install                          | ---------                                                                | Folder is created with all the files inside.                                                         |       |
+| Uninstall                        | ---------                                                                | Folder is deleted with all the car files inside.                                                     |       |
+| Create                           | Car information (eg. JIK777 Ford black 5)Bash create JIK777 Ford black 5 | The file JIK777.txt is created, maincarfile is updated with the car information JIK777 Ford black 5  |       |
+| Record                           | Car’s license number and distance travelledBash record JIK777 100km      | The trip of the car is recorded and the maincarfile is updated with the distance travelled eg. 100km |       |
+| Edit                             | Car’s license numbernanoJIK777.txt                                       | The required information of the car is edited and updated.                                           |       |
+| Summary                          | Car’s license numbernanoJIK777.txt                                       | It shows a summary of the total distance travelled by car.                                           |       |
+| Delete                           | Car’s license numberBash delete JIK777 Ford black 5                      | The file JIK77.txt is deleted, and all of its contents.                                              |       |
+| User can understand the commands | Bash program:man create                                                  | A text showing all the commands and their various uses in different aspects.                         |       |
 
 Development
 --------
