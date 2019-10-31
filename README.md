@@ -45,6 +45,8 @@ Design
 ![FlowDiagramFrame](FLOWCHART.png)
 ***Fig. 2** This flow diagram shows the algorithm for creating a frame with a word inside in the bash terminal.
 
+### Test Plan
+
 Development
 --------
 ### 1. Script for installation
