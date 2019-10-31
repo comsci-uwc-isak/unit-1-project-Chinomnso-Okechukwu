@@ -207,7 +207,7 @@ sed -i '' "/^$license/d" maincarfile.txt
 #add the new information
 echo "$license $maker $model $pp" >> maincarfile.txt
 cd ../scripts
-bash frame2 "Car edited successfully"
+bash frame.sh "Car edited successfully"
 ```
 
 ### Developing the action summary
@@ -313,7 +313,7 @@ license=$1
 #this delete an existing file maincarfile.txt inside CarRentalApp 
 echo "$license" > db/maincarfile.txt
 
-bash frame1 "car deleted successufully"
+bash frame.sh "car deleted successufully"
 ```
 
 ### 3. Developing user help files
