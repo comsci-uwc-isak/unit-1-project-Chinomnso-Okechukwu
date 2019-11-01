@@ -347,7 +347,7 @@ delete is a bash program that allows to delete an existing car in the database
 Okechukwu Chinomnso
 ```
 
-During the course of uploading my test plan, I learnt sbout mark down tables and how to convert to mark down tables.
+During the course of uploading my test plan, I learnt about mark down tables and how to convert to mark down tables from csv files.
 
 Evaluation
 -----------
