@@ -30,7 +30,7 @@ These are outcomes that can be measured
 1. A basic working backup system is available
 1. The user can easily (name notation, documentation) understand the commands
 1. Installation is **simple**, it does not require additional software, one step process
-!. A car information can be deleted
+1. A car information can be deleted
 1. The application can be uninstalled
 
 Design
@@ -366,6 +366,19 @@ During the course of uploading my test plan, I learnt about mark down tables and
 
 Evaluation
 -----------
+In our evaluation, we are going to look at the success criteria and conclude whether or not we meet the criteria:
+1. A car can be created: This is absolutely true as the program for creating a car under the development section works perfectly.
+2. A trip can be recorded for a given car: This is also true as the program for recording a trip for an existing car in the development section also works.
+3. A summary (total distance travel, average) of trips can be measured: Oops! I'm afraid that this program doesn't give the expect output. On the bright side, the program for the action summary has clear steps for users to understand.
+4. A car information can be edited: Yes. A car information can be edited using the action edit. The program for edit in the development section runs fine.
+5. A basic working backup system is available: Yes it is. We are able to backup on the desktop or into a USB drive.
+6. The user can easily (name notation, documentation) understand the commands: This is true as man pages help explain the commands and their functions.
+7.  The installation and uninstallion does not need any additional software. It is very simple.
+8. A car can be deleted: This is true as the program for deleting a car under the development section works perfectly.
 
+Having reviewed all this we can say that we acheived success but not total success since the summary action is not giving the required output.
 
+### Future Improvements 
 
+### Testing
+The testing we used corresponds to dynamic testing as opposed to static testing. It also corresponds to alpha testing because we are the ones developing the Rental Car App. It also corresponds to white-box testing because we had to go inside and check everything. 
