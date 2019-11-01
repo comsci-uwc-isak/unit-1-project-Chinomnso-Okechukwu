@@ -335,7 +335,6 @@ Okechukwu Chinomnso
 
 ```.sh
 #!/bin/bash
-
 .TH man 6 "01 Nov 2019 1.0" "delete man page"
 .SH NAME
 delete \- Deletes an existing car
@@ -343,6 +342,19 @@ delete \- Deletes an existing car
 bash delete.sh [license] [maker] [model] [passengers]
 .SH DESCRIPTION
 delete is a bash program that allows to delete an existing car in the database
+.SH AUTHOR
+Okechukwu Chinomnso
+```
+
+```.sh
+#!/bin/bash
+.TH man "01 Nov 2019 1.0" "edit man page"
+.SH NAME
+edit \- Edits an existing car
+-SH SYNOPSIS 
+bash edit.sh [license] [maker] [model] [passengers]
+.SH DESCRIPTION
+edit is a bash program that allows to edit information about an existing car in the database
 .SH AUTHOR
 Okechukwu Chinomnso
 ```
