@@ -51,11 +51,11 @@ Design
 | ACTION                           | INPUT                                                                    | OUTPUT                                                                                               | CHECK |
 | Install                          | ---------                                                                | Folder is created with all the files inside.                                                         |     O  |
 | Uninstall                        | ---------                                                                | Folder is deleted with all the car files inside.                                                     |      O |
-| Create                           | Car information (eg. JIK777 Ford black 5)Bash create JIK777 Ford black 5 | The file JIK777.txt is created, maincarfile is updated with the car information JIK777 Ford black 5  |     O  |
-| Record                           | Car’s license number and distance travelledBash record JIK777 100km      | The trip of the car is recorded and the maincarfile is updated with the distance travelled eg. 100km |      O |
-| Edit                             | Car’s license numbernanoJIK777.txt                                       | The required information of the car is edited and updated.                                           |      O |
-| Summary                          | Car’s license numbernanoJIK777.txt                                       | It shows a summary of the total distance travelled by car.                                           |     O  |
-| Delete                           | Car’s license numberBash delete JIK777 Ford black 5                      | The file JIK77.txt is deleted, and all of its contents.                                              |    O   |
+| Create                           | Car information (eg. JIK777 Ford black 5)Bash create.sh JIK777 Ford black 5 | The file JIK777.txt is created, maincarfile is updated with the car information JIK777 Ford black 5  |     O  |
+| Record                           | Car’s license number and distance travelledBash record.sh JIK777 100km      | The trip of the car is recorded and the maincarfile is updated with the distance travelled eg. 100km |      O |
+| Edit                             | Car’s license number bash edit.sh JIK777 Ford black 5                                    | The required information of the car is edited and updated.                                           |      O |
+| Summary                          | Car’s license number bash summary.sh JIK777                                        | It shows a summary of the total distance travelled by car.                                           |     O  |
+| Delete                           | Car’s license numberBash bash delete JIK777 Ford black 5                      | The file JIK77.txt is deleted, and all of its contents.                                              |    O   |
 | User can understand the commands | Bash program:man create                                                  | A text showing all the commands and their various uses in different aspects.                         |      O |
 
 Development
