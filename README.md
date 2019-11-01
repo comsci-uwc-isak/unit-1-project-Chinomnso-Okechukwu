@@ -321,6 +321,7 @@ We use man page protocol to display the user manual of any command that we can r
 https://www.cyberciti.biz/faq/linux-unix-creating-a-manpage/
 The website above gives more explanation about man files.
 
+### Man page for the command create
 ```.sh
 .TH man 6 "29 Oct 2019" "1.0" "create man page"
 .SH NAME
@@ -333,6 +334,7 @@ create is a bash program that allows to create a new car in the database
 Okechukwu Chinomnso
 ```
 
+### Man page for the command delete
 ```.sh
 #!/bin/bash
 .TH man 6 "01 Nov 2019 1.0" "delete man page"
@@ -346,6 +348,7 @@ delete is a bash program that allows to delete an existing car in the database
 Okechukwu Chinomnso
 ```
 
+### Man page for the command edit
 ```.sh
 #!/bin/bash
 .TH man "01 Nov 2019 1.0" "edit man page"
