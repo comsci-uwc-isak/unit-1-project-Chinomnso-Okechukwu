@@ -366,33 +366,17 @@ During the course of uploading my test plan, I learnt about mark down tables and
 
 Evaluation
 -----------
-#!/bin/bash
-
-#This file checks if the action create successfully adds a new car.
-
-#Step 1: navigate to the folder containing the create.sh file
-cd ../scripts/
-if [ -f "create.sh" ]; then (this is used to check the existence of a file)
-        echo "File exists, test will start now"
-else
-        echo "File create.sh does not exist. Test Failed"
-fi
-
-#Step 2: Use the create script to record a new car TXM901 nissan red 9
-bash create TXM901 nissan red 9
-
-#Step 3: Check that a txt file was created inside the database folder with
-#the license numbver
-if [ -f "TXM901.txt" ]; then (this is used to check the existence of a file)
-        echo "Test one: file with the license plate created successfully. Passed"
-else
-        echo "Test one: file with license number not found: Failing"
-fi
-```
-
-Here the option -f in the if condition checks for a file in the working folder.
-
-This corresponds to dynamic testing as opposed to static testing. It also corresponds to alpha testing because we are the ones developing the Car Rental App. It also corresponds to white-box testing because we had to go inside and check everything. The system meets the expecations of its users. 
+|                                  |                                                                          |                                                                                                      |       |
+|----------------------------------|--------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-------|
+| ACTION                           | INPUT                                                                    | OUTPUT                                                                                               | CHECK |
+| Install                          | ---------                                                                | Folder is created with all the files inside.                                                         |       |
+| Uninstall                        | ---------                                                                | Folder is deleted with all the car files inside.                                                     |       |
+| Create                           | Car information (eg. JIK777 Ford black 5)Bash create JIK777 Ford black 5 | The file JIK777.txt is created, maincarfile is updated with the car information JIK777 Ford black 5  |       |
+| Record                           | Car’s license number and distance travelledBash record JIK777 100km      | The trip of the car is recorded and the maincarfile is updated with the distance travelled eg. 100km |       |
+| Edit                             | Car’s license numbernanoJIK777.txt                                       | The required information of the car is edited and updated.                                           |       |
+| Summary                          | Car’s license numbernanoJIK777.txt                                       | It shows a summary of the total distance travelled by car.                                           |       |
+| Delete                           | Car’s license numberBash delete JIK777 Ford black 5                      | The file JIK77.txt is deleted, and all of its contents.                                              |       |
+| User can understand the commands | Bash program:man create                                                  | A text showing all the commands and their various uses in different aspects.                         |       |
 
 
 
