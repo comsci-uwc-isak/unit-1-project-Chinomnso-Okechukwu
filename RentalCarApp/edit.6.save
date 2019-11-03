@@ -1,0 +1,11 @@
+#!/bin/bash
+
+.TH man "01 Nov 2019 1.0" "edit man page"
+.SH NAME
+edit \- Edits an existing car
+-SH SYNOPSIS 
+bash edit.sh [license] [maker] [model] [passengers]
+.SH DESCRIPTION
+edit is a bash program that allows to edit information about an existing car in the database
+.SH AUTHOR
+Okechukwu Chinomnso
