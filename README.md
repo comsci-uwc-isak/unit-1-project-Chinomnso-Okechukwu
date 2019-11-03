@@ -367,6 +367,7 @@ During the course of uploading my test plan, I learnt about mark down tables and
 Evaluation
 -----------
 ### Checking the programs
+### For Create
 ```.sh
 #!/bin/bash
 
@@ -384,11 +385,36 @@ fi
 bash create TXM901 nissan red 9
 
 #Step 3: Check that a txt file was created inside the database folder with
-#the license numbver
+#the license number
 if [ -f "TXM901.txt" ]; then (this is used to check the existence of a file)
         echo "Test one: file with the license plate created successfully. Passed"
 else
         echo "Test one: file with license number not found: Failing"
+fi
+```
+### For Delete
+```.sh
+#!/bin/bash
+
+#This file checks if the action deletes successfully adds a new car.
+
+#Step 1: navigate to the folder containing the delete.sh file
+cd ../scripts/
+if [ -f "delete.sh" ]; then (this is used to check the existence of a file)
+        echo "File exists, test will start now"
+else
+        echo "File delete.sh does not exist. Test Failed"
+fi
+
+#Step 2: Use the delete script to delete a new car TXM901 nissan red 9
+bash create TXM901 nissan red 9
+
+#Step 3: Check that a txt file was deleted inside the database folder with
+#the license number
+if [ -f "TXM901.txt" ]; then (this is used to check the existence of a file)
+        echo "Test one: file with the license plate deleted successfully. Passed"
+else
+        echo "Test one: file with license number found: Failing"
 fi
 ```
 
