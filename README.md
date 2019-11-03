@@ -434,7 +434,7 @@ In my evaluation, I am going to look at the success criteria and conclude whethe
 Having reviewed all this I can say that I acheived success but not total success since the summary action is not giving the required output.
 
 ### Future Improvements 
-The purpose of Rental Car businesses is to make money. This current programs can only record the distance travelled by the car without considering the amount of money per kilometre. So, in our updated RentalCarApp we can include a program that calculates the price per kilometre.
+The purpose of Rental Car businesses is to make money. These current programs can only record the distance travelled by the car without considering the amount of money per kilometre. So, in our updated RentalCarApp we can include a program that calculates the price to be paid per kilometre.
 We can also provide the RentalCarApp in different languages.
 
 ### Testing
