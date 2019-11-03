@@ -410,4 +410,7 @@ Having reviewed all this we can say that we acheived success but not total succe
 ### Future Improvements 
 
 ### Testing
-The testing we used corresponds to dynamic testing as opposed to static testing. It also corresponds to alpha testing because we are the ones developing the Rental Car App. It also corresponds to white-box testing because we had to go inside and check everything. 
+1. The testing we used corresponds to dynamic testing as opposed to static testing. 
+1. It also corresponds to alpha testing because we are the ones developing the Rental Car App. 
+1. It also corresponds to white-box testing because we had to go inside and check everything. 
+1. The program meets functinal requirements and user expectations.
