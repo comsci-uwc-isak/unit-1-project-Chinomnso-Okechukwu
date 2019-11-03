@@ -366,6 +366,35 @@ During the course of uploading my test plan, I learnt about mark down tables and
 
 Evaluation
 -----------
+### Checking the programs
+```.sh
+#!/bin/bash
+
+#This file checks if the action create successfully adds a new car.
+
+#Step 1: navigate to the folder containing the create.sh file
+cd ../scripts/
+if [ -f "create.sh" ]; then (this is used to check the existence of a file)
+        echo "File exists, test will start now"
+else
+        echo "File create.sh does not exist. Test Failed"
+fi
+
+#Step 2: Use the create script to record a new car TXM901 nissan red 9
+bash create TXM901 nissan red 9
+
+#Step 3: Check that a txt file was created inside the database folder with
+#the license numbver
+if [ -f "TXM901.txt" ]; then (this is used to check the existence of a file)
+        echo "Test one: file with the license plate created successfully. Passed"
+else
+        echo "Test one: file with license number not found: Failing"
+fi
+```
+
+Here the option -f in the if condition checks for a file in the working folder.
+
+
 In our evaluation, we are going to look at the success criteria and conclude whether or not we meet the criteria:
 1. A car can be created: This is absolutely true as the program for creating a car under the development section works perfectly.
 2. A trip can be recorded for a given car: This is also true as the program for recording a trip for an existing car in the development section also works.
