@@ -1,4 +1,11 @@
 ![CarRental](logo.png)
+```.py
+Marks=22
+Demo=4
+Total=(Marks+Demo)=26
+```
+**Graded on Nov 6**
+
 
 Car Rental Minimal App
 ===========================
@@ -33,6 +40,18 @@ These are outcomes that can be measured
 1. A car information can be deleted
 1. The application can be uninstalled
 
+|Level|Descriptor|
+|----|-----|
+|4|The client in the car rental office is identified and his situation is stated. The rationale for choosing the proposed product is partially explained and includes some appropriate criteria for evaluating the success of the product.|
+```.sh
+Rational
+* You can improve this criterion by solving the following questions about the context: Who is the client?
+Why is the product being developed?
+* One more justificaiton for using BASH is that we were learning it. 
+* Research on the internet other features of BASH that makes it a good choice for this system
+* One more justificaiton for using BASH is that we were learning it.
+```
+
 Design
 ---------
 ### First Sketch of System
@@ -57,6 +76,17 @@ Design
 | Summary                          | Car’s license number bash summary.sh JIK777                                        | It shows a summary of the total distance travelled by car.                                           |     X  |
 | Delete                           | Car’s license numberBash bash delete JIK777 Ford black 5                      | The file JIK77.txt is deleted, and all of its contents.                                              |    O   |
 | User can understand the commands | Bash program:man create                                                  | A text showing all the commands and their various uses in different aspects.                         |      O |
+
+## Criterion B
+|**level**|**Description**|
+|-----|------------|
+|7|An outline test plan is included but partially complete. A system diagram and some flow diagrams for algorithms in the product are included. They provide a basic understanding of how the product was developed.|
+```.sh
+Rationale
+* Great job with the flow diagrams and the test plan.
+* You are losing marks in this criterion because you did not include the figure captions and the descriptions after every figure. The figure caption is: "Fig. 1. Diagram of the system showing the hardware and software components."
+The description is a paragraph that explains the figure and tells the reader why you included the figure: "As seen in Fig. 1. the system proposed for the CarRentalApp consist of ..."
+```
 
 Development
 --------
@@ -364,6 +394,18 @@ Okechukwu Chinomnso
 
 During the course of uploading my test plan, I learnt about mark down tables and how to convert to mark down tables from csv files.
 
+## Criterion C
+|**level**|**Description**|
+|-----|------------|
+|5|The proposed solution is characterized by the appropriate use of existing tools. The techniques are adequate for the task and their use is explained. All sources are identified.|
+```.sh
+Rationale
+* Neat work here Nomnso
+* One thing you can improve is to research and include what you find in the development.
+* Also, while you have snippets of your code, it is important to describe what you see in them.
+* You can also include the citations to the references of the sources that you researched in the internet using MLA format. For example: "As shown in [1], to read a file in bash we can use:"  then the reference in the bottom of the document in the References section: [1] Pinzon, Ruben. "Read files in bash", ..... 
+```
+
 Evaluation
 -----------
 ### Checking the programs
@@ -442,3 +484,12 @@ We can also provide the RentalCarApp in different languages.
 1. It also corresponds to alpha testing because I are the ones developing the Rental Car App. 
 1. It also corresponds to white-box testing because I had to go inside and check everything. 
 1. The program meets functinal requirements and user expectations.
+
+## Criterion D
+|**level**|**Description**|
+|-----|------------|
+|6|The product is fully evaluated against the success criteria identified in criterion A. Recommendations for further improvement of the product are realistic.|
+```.sh
+Rationale
+* You evaluation of the success criteria is sufficient however.well done.
+```
